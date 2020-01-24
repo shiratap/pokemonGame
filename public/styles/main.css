@@ -1,0 +1,9 @@
+body {
+	background-color: #eeee;
+}
+.container {
+	margin-top: 20px;
+}
+.card-text {
+	font-size: 2vw;
+}
