@@ -4,14 +4,32 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+		/>
+		<link rel="stylesheet" href="styles/main.css" />
 		<title>Pokemon Finder</title>
 	</head>
 	<body>
-		<input id="number" type="text" placeholder="Poke-index here!" /><input
-			id="submit"
-			type="submit"
-		/>
-		<p id="content"></p>
+		<div class="container">
+			<div class="row">
+				<input
+					id="number"
+					type="text"
+					class="col s7"
+					placeholder="Poke-index here!"
+				/>
+				<span class="col s1"></span>
+				<input
+					id="submit"
+					class="waves-effect waves-light btn col s4"
+					type="submit"
+				/>
+			</div>
+		</div>
+
+		<div class="container"><div id="content" class="row"></div></div>
 	</body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="src/index.js"></script>
